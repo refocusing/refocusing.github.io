@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic page needs: charset, viewport, title, and links to external stylesheets -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Portfolio</title>
+    <!-- Linking CSS files for styling -->
+
+    <link href="../css/jquery.bxslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="../jquery/jquery.js"></script>
+    <script src="../jquery/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="../jquery/jquery.bxslider.min.js"></script>
+    <script src="../js/home.js"></script>
+    <!-- Google Fonts for more font choices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+        <!-- Include the custom external JS file -->
+    <script src="../js/dataLoader.js"></script>
+</head>
+
+<body>
+    <!-- Header section with navigation -->
+    <header>
+        <nav class="navbar">
+            <!-- Navigation title -->
+            <div class="nav-title">
+                <h1><a id="brand" href="home.html">Haruto Tanaka</a></h1>
+            </div>
+            <!-- Navigation menu -->
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <!-- Welcome section with image and introduction -->
+        <div class="welcome-container">
+            <!-- Profile picture -->
+            <ul class="welcome-img" id="slider">
+                <li><img src="../images/haruto1.jpeg" alt="john doe"></li>
+                <li><img src="../images/haruto2.jpeg" alt="jobs"></li>
+                <li><img src="../images/haruto3.jpeg" alt="projects"></li>
+                <li><img src="../images/haruto4.jpeg" alt="skills"></li>
+            </ul>
+            <p id="pager"></p>
+
+            <!-- Welcome message and introduction -->
+            <div class="welcome-text" id="welcome-text">
+                <!-- Content will be dynamically loaded here -->
+                
+                <!-- Links for downloading CV and contacting -->
+                <div class="links">
+                    <button class="download-btn"><a href="haruto_tanaka_cv.pdf">Download CV</a></button>
+                    <button class="contact-btn"><a href="contact.html">Contact Me</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer section with social media links -->
+    <footer class="footer">
+        <hr>
+        <div class="social-links">
+            <a href="" class="social-link">Medium</a>
+            <a href="" class="social-link">LinkedIn</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>

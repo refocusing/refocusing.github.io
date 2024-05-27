@@ -1,0 +1,61 @@
+/* Sets the default margin, font family, weight, and style for the entire page */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 200; 
+    font-style: normal;
+}
+
+/* Styles the horizontal rule in the header for a custom look */
+header hr {
+    width: 90%; 
+    margin: 0 auto;
+    color: #0a254b; 
+}
+
+/* Styles the navigation bar */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 3px 50px; 
+    background-color: rgb(255, 255, 255); 
+}
+
+/* Styles the brand/logo part of the navbar */
+#brand {
+    text-decoration: none; 
+    color: #09438f; 
+    font-size: x-large; 
+}
+
+/* Removes default list styles from the menu */
+.menu ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles each list item in the menu */
+.menu ul li {
+    padding: 13px; 
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+/* Removes the margin on the right for the last item to align it properly */
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+/* Styles links in the menu */
+.menu ul li a {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+/* Changes link color on hover for a visual cue */
+.menu ul li a:hover {
+    color: #0d5fca; 
+}

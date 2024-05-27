@@ -1,0 +1,59 @@
+/* Sets the background color of the entire page */
+body {
+    background-color: #eeeff0; 
+}
+
+/* Styles the main container for skills, centers content vertically and horizontally */
+.skills-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    height: 100vh; 
+    box-sizing: border-box; 
+}
+
+/* Styles each row of skills to layout horizontally */
+.skill-row {
+    display: flex; 
+    justify-content: center; 
+    margin: 10px 0; 
+}
+
+#panel {
+    display: none;
+}
+
+/* Styles individual skill boxes */
+.skill { 
+    background-color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    width: 350px; 
+    text-align: center; 
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+    margin: 20px;
+}
+
+#accordion1, #accordion2, #accordion3 {
+    padding: 20px;
+    background-color: #c9cbef49; 
+}
+
+/* Adds interactive hover effect to skill boxes */
+.skill:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 5px 10px rgba(1, 3, 31, 0.809); 
+}
+
+/* Styles the headers within skill boxes */
+.skill h2 {
+    font-weight: large;
+    color: rgb(35, 55, 108);
+    margin:rgb(42, 43, 67)
+}
+
+/* Additional footer styles */
+.footer {
+    margin: 0; 
+}

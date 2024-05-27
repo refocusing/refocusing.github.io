@@ -1,0 +1,140 @@
+/* Sets the base styles for the entire webpage */
+body {
+    font-family: 'Raleway', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #eeeff0; 
+}
+
+/* Styles the main content area */
+.main {
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* Styles the section that contains professional experience */
+.experience-section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#content1, #content2, #content3, #content4 {
+    display: none;
+}
+
+/* Styles the container for each job experience */
+.experience-container {
+    display: flex; 
+    max-width: 800px;
+    justify-content: center; 
+    margin-bottom: 40px; 
+}
+
+/* Styles each job article */
+.job {
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid #00000043; 
+    padding: 30px; 
+    margin-right: 20px; 
+    box-shadow: 0 4px 8px rgba(7, 5, 104, 0.2); 
+    border-radius: 4px; 
+}
+
+
+/* Styles the job title */
+.job h2 {
+    color: #0f0935; 
+    font-weight: bold; 
+}
+
+.job em{
+    font-weight:lighter;
+    font-size:medium;
+    color: #7d5c5c99;
+}
+
+/* Styles the company name and years */
+.job h3 {
+    color: #7d5c5c; 
+    font-weight: normal; 
+    font-style: italic; 
+}
+
+/* Styles the container for the job image */
+.job-image {
+    padding: 10px; 
+    min-width: 400px;
+    max-width: 400px;
+}
+
+/* Styles the job images */
+.job-image img {
+    max-height: 300px; 
+    max-width: 400px; 
+    border-radius: 4px; 
+}
+
+/* Styles for the news section */
+.news-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.news-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.news-item {
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 300px;
+    margin: 0 10px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    max-height: 100px;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}

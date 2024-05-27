@@ -1,0 +1,104 @@
+/* General styles for the whole page */
+body {
+    font-family: 'Raleway', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(234, 235, 236); 
+}
+
+/* Styling for the main contact section */
+.main-contact {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+    margin-top: 60px; 
+}
+
+/* Wrapper for the contact form and info, providing a unified background */
+.contact-wrapper {
+    display: flex; 
+    background-color: white; 
+    padding: 40px;
+    border-radius: 4px; 
+    box-shadow: 0 4px 8px rgba(18, 43, 124, 0.642); 
+    margin: auto; 
+}
+
+/* Styles for the contact information section */
+.contact-info {
+    flex: 1; 
+    text-align: center; 
+}
+
+/* Styles for the contact form */
+.contact-form {
+    flex: 2; 
+    text-align: center; 
+}
+
+/* Shared styles for headings in the contact form and info sections */
+.contact-form h2, .contact-info h2 {
+    color: #060f55; 
+}
+
+/* Styles for input fields and the textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1.5px solid #a3b0c6; 
+    border-radius: 10px; 
+}
+
+/* Additional styling for the textarea */
+textarea {
+    height: 120px; 
+}
+
+/* Styles for the submit button */
+button {
+    font-size: small; 
+    padding: 10px 20px; 
+    background-color: #20a53d; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: 0.6s ease; 
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #21272e; 
+}
+
+/* Styles for social media icons */
+.social-icon img {
+    width: 24px; 
+    margin: 0 10px;
+}
+
+/* Styles for the anchor tags wrapping the icons */
+.social-icon {
+    display: inline-block; 
+    text-decoration: none;
+}
+
+/* Hover and focus effects for social icons */
+.social-icon:hover, .social-icon:focus {
+    opacity: 0.7; 
+}
+
+/* error  style*/
+label.error {
+    color: red; /* Hata mesajlarını kırmızı yapar */
+    font-size: 12px; /* Font boyutunu küçültür */
+    font-style: italic; /* İtalik font stili uygular */
+}
+
+input.error {
+    border: 1px solid red; /* Hatalı input alanlarının kenarlık rengini kırmızı yapar */
+    background-color: #ffcccc; /* Arka plan rengini açık kırmızı yapar */
+}

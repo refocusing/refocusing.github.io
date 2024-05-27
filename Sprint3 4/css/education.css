@@ -1,0 +1,66 @@
+/* Basic setup for the entire page */
+body {
+    font-family: 'Raleway', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(234, 235, 236); 
+}
+
+/* Styles the container that holds all education entries */
+.education-container {
+    width: 60%; 
+    margin: 40px auto; 
+    text-align: center; 
+}
+
+#tabs, #tabs1, #tabs2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #c9cbef49; 
+}
+
+/* Styles for each individual education entry */
+.degree {
+    background-color: #ffffff; 
+    padding: 10px; 
+    border-radius: 2px; 
+    margin-bottom: 10px; 
+    border-left: 10px solid #160664; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* Styles for the school logo inside each degree */
+.degree img.school-logo {
+    margin-top: 10px; 
+    width: 300px; /* Increased width for the logo */
+    height: 300px; /* Added fixed height to maintain consistency */
+}
+
+/* Styles for the degree duration  */
+.degree h2 {
+    padding: 20px; 
+    margin: 0; 
+    color: #333; 
+    font-weight: 700; 
+}
+
+/* Styles for the degree type */
+.degree h3 {
+    padding: 20px; 
+    margin: 10px 0; 
+    font-weight: 400; 
+}
+
+/* Styles for the description paragraph inside each degree */
+.degree p {
+    margin: 10px 0 0; 
+    flex: 1; 
+}
+
+
+#tabs-1, #tabs-2, #tabs-3,
+#tabs1-1, #tabs1-2, #tabs1-3,
+#tabs2-1, #tabs2-2, #tabs2-3 {
+    min-height: 150px; 
+}

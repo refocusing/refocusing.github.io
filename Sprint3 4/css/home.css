@@ -1,0 +1,68 @@
+/* Adds padding at the bottom of the header for spacing */
+header {
+    padding-bottom: 80px;
+}
+
+body {
+    background-color: rgb(234, 235, 236);
+}
+
+
+/* Styles the main welcome container */
+.welcome-container {
+    display: flex; 
+    align-items: center; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 4px; 
+    box-shadow: 0 8px 8px rgba(18, 50, 137, 0.255); 
+    margin-top: 30px; 
+    padding: 60px; 
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+/* Styles the image within the welcome container */
+.welcome-img img {
+    width: 750px; 
+    height: 500px;
+    margin-bottom: 20px; 
+}
+
+/* Styles the text section of the welcome container */
+.welcome-text {
+    padding-left: 100px; 
+}
+
+/* Sets the layout for the link buttons */
+.links {
+    display: inline-block; 
+}
+
+/* Removes underlines from all links for cleaner appearance */
+a {
+    text-decoration: none;
+}
+
+/* Sets the text color of links within buttons */
+.download-btn a,
+.contact-btn a {
+    color: white;
+}
+
+/* Styles the download and contact buttons */
+.download-btn, .contact-btn {
+    font-size: small; 
+    padding: 10px 20px; 
+    background-color: #1b71d3; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 7px; 
+    cursor: pointer; 
+    transition: 0.6s ease; 
+}
+
+/* Changes the background color of buttons on hover */
+.download-btn:hover,
+.contact-btn:hover {
+    background-color: #81d461;
+}

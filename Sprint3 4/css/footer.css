@@ -1,0 +1,41 @@
+/* Styles the footer to align text center, and properly space it from content above */
+.footer {
+    text-align: center; 
+    margin-top: 40px; 
+    padding: 10px 0; 
+    bottom: 0px; 
+    width: 100%; 
+}
+
+/* Styles the horizontal rule in the footer for visual separation */
+footer hr {
+    margin: 0 auto; 
+    width: 50%; 
+}
+
+/* Arranges social media links horizontally */
+.social-links {
+    padding: 10px; 
+    display: inline-block; 
+}
+
+/* Styles each social media link */
+.social-link {
+    text-decoration: none; 
+    color: rgb(116, 74, 230); 
+    display: inline-block;
+    margin: 0 5px; 
+}
+
+/* Styles the top part of the footer for any additional content */
+.footer-top {
+    color: black; 
+    margin-top: 20px; 
+}
+
+/* Styles the bottom part of the footer with a background and text color */
+.footer-bottom {
+    background-color: #040324; 
+    color: #fff; 
+    padding: 2px 0; 
+}
