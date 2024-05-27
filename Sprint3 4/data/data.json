@@ -1,0 +1,12 @@
+{
+    "welcomeText": {
+        "heading": "👋Hello, I'm Haruto Tanaka!",
+        "subHeading": "Software Engineer",
+        "paragraphs": [
+            "Welcome to my portfolio! I am Haruto Tanaka, a dedicated software engineer based in Tokyo, Japan. I hold a Master's degree in Artificial Intelligence from Stanford University and have a strong background in computer engineering.",
+            "My expertise includes artificial intelligence, image processing, and web design. I have worked on various projects involving machine learning algorithms, natural language processing, and computer vision. At Google, I developed advanced AI solutions, and at OpenAI, I contributed to projects like GPT-3 and GPT-4.",
+            "I am proficient in Java, Python, and JavaScript, with experience in frameworks such as React.js and Spring. Additionally, I have extensive knowledge in database management with PostgreSQL, MySQL, and MongoDB.",
+            "I am passionate about continuous learning and innovation, always exploring new technologies to stay ahead in the industry. Thank you for visiting my portfolio. Feel free to explore my projects and skills, and contact me for any inquiries."
+        ]
+    }
+}
