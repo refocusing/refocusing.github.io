@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON("../data.json", function(data){
+    $.getJSON("../data/data.json", function(data){
         var welcomeText = data.welcomeText;
         $("#data").append(
             "<h2>" + welcomeText.heading + "</h2>" +
